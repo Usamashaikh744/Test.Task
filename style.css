@@ -1,0 +1,80 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+body{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+ul{
+    list-style-type:none;
+    margin: 0%;
+    padding: 0%;
+    width: 250;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+ 
+}
+ li a{
+    margin: 10px;
+    display: block;
+    
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    border: solid rgb(179, 175, 175) 7px;
+    border-bottom: none;
+    border-top:none; 
+    margin: 0% 10%;
+    width: 25%;
+    
+
+}
+button{  
+     color: #fff;
+    background-color: #f2849f;
+    font-size: 15px;
+    font-weight: bold;
+    border: transparent;
+    padding: 10px 40px;
+    margin: 15px 0px;
+    
+    
+   
+}
+button:hover{
+    background-color: #fc4274;
+    color: white;
+    cursor: pointer;
+    
+}
+.us{
+    float: right;
+    margin: -35% 33%;
+}
+.hs{
+    padding: 200px;
+    padding-top:100px;
+}
+.color{
+    color:#c14e3b
+}
+.us2{
+    text-decoration: line-through;
+    color:#c14e3b;
+} 
+#star{
+   color: #f7b733;
+}
+.img1 img{
+    height: 70px;
+    line-height: 20px;
+    float: left;
+}
+#hr {
+    width: 69%;
+    }
